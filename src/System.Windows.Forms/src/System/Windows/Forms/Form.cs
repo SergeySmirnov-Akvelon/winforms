@@ -1081,7 +1081,7 @@ namespace System.Windows.Forms
         /// <summary>
         ///  Determines whether the window is closing.
         /// </summary>
-        private bool IsClosing
+        internal bool IsClosing
         {
             get
             {

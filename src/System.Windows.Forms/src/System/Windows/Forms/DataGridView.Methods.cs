@@ -16534,7 +16534,7 @@ namespace System.Windows.Forms
             try
             {
                 // We can't paint if we are disposed.
-                if (_dataGridViewOper[OperationInDispose] || IsDisposed)
+                if (_dataGridViewOper[OperationInDispose] || IsDisposed || FindForm().IsClosing)
                 {
                     return;
                 }
